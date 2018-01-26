@@ -1,0 +1,8 @@
+Поэкспериментрируйте с вашей программой удалив различные части и посмотрев ошибки.
+1.Переименовал функцию main:
+/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+2.сделал main который возращает double:
+программа скомпилировалась и запустилась
+
